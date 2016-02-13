@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/item0"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <TextView android:id="@+id/week" android:text="Пнд" android:paddingRight="10dp" android:layout_marginLeft="70dp" android:textSize="20dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/m_text" />
+
+        <TextView android:id="@+id/number" android:text="10" android:textColor="@color/m_text" android:textSize="20dp"
+            android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:layout_marginRight="70dp" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout android:visibility="gone" android:background="@drawable/selected_item"
+        android:gravity="center" android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <TextView android:id="@+id/year_month" android:text="2013 Дек" android:paddingBottom="2dp"
+            android:layout_width="70dp" android:gravity="bottom" android:textColor="@color/m_blue"
+            android:layout_height="match_parent" android:paddingRight="2dp" />
+        <TextView android:id="@+id/week1" android:textColor="@color/m_blue" android:text="Пнд" android:paddingRight="10dp" android:textSize="20dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/number1" android:text="10" android:textColor="@color/m_blue" android:textSize="20dp"
+            android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:layout_marginRight="70dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
